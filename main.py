@@ -10,7 +10,6 @@ logging.basicConfig(level=logging.WARNING)
 
 tgraph = Client(
     "Image Upload Bot",
-    owner_username=Credentials.OWNER_USERNAME,
     bot_token=Credentials.BOT_TOKEN,
     api_id=Credentials.API_ID,
     api_hash=Credentials.API_HASH
@@ -20,7 +19,7 @@ tgraph = Client(
 @tgraph.on_message(filters.command("start"))
 async def start(client, message):
     await message.reply_text(
-        text=f"Hello,{message.from_user.mention}, I am *Akira* Telegraph Uploader Bot which simply creates a *link* of the media sent in my PM.\n*How it works?*\nJust send me /start then provide me a image to create a link... Simple bot by [Akira Dev](https://telegram.dog/Akira_News).\Maintained by {OWNER_USERNAME}.",
+        text=f"Hello,{message.from_user.mention}, I am *Akira* Telegraph Uploader Bot which simply creates a *link* of the media sent in my PM.\n*How it works?*\nJust send me /start then provide me a image to create a link... Maintained by [Akira Dev](https://telegram.dog/Akira_News).",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
