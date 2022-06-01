@@ -16,9 +16,6 @@
     },
     "OWNER_USERNAME": {
       "description": "Your Telegram Username"
-    },
-    "START_PIC": {
-      "description": "A Telegraph link of the pic to display when give /start command"
     }
   },
  
