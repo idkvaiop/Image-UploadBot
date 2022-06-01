@@ -44,10 +44,10 @@ async def getimage(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Open Link", url=f"https://telegra.ph{url_path}"
+                        text="get the telegra.ph image", url=f"https://telegra.ph{url_path}"
                     ),
                     InlineKeyboardButton(
-                        text="Share Link",
+                        text="share the telegra.ph image",
                         url=f"https://telegram.me/share/url?url=https://telegra.ph{url_path}",
                     )
                 ]
