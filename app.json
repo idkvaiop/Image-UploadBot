@@ -13,9 +13,6 @@
     },
     "API_HASH": {
       "description": "API_HASH from Telegram Web"
-    },
-    "OWNER_USERNAME": {
-      "description": "Your Telegram Username"
     }
   },
  
