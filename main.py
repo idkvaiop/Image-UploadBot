@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.WARNING)
 
 
 tgraph = Client(
-    "Image upload bot",
+    "Image Upload Bot",
     start_pic=Credentials.START_PIC,
     owner_username=Credentials._OWNER_USERNAME,
     bot_token=Credentials.BOT_TOKEN,
