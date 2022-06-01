@@ -13,7 +13,12 @@
     },
     "API_HASH": {
       "description": "Your API_HASH from https://my.telegram.org/apps"
-    }
+    },
+    "OWNER_USERNAME": {
+      "description": "Your Telegram Username"
+    },
+    "START_PIC": {
+      "description": ""
    },
    "buildpacks": [
     {
