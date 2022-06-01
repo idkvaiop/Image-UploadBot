@@ -22,7 +22,7 @@ tgraph = Client(
 async def start(client, message):
     await message.reply_text(
         text=f"{START_PIC}
-Hello,{message.from_user.mention}, I am *Akira* Telegraph Uploader Bot which simply creates a *link* of the media sent in my PM.\n*How it works?*\nJust send me /start then provide me a image to create a link... Simple project by [Akira Dev](https://telegram.dog/Akira_News).\Maintained by {OWNER_USERNAME}.",
+Hello,{message.from_user.mention}, I am *Akira* Telegraph Uploader Bot which simply creates a *link* of the media sent in my PM.\n*How it works?*\nJust send me /start then provide me a image to create a link... Simple bot by [Akira Dev](https://telegram.dog/Akira_News).\Maintained by {OWNER_USERNAME}.",
         disable_web_page_preview=True
     )
 
