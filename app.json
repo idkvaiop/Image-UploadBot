@@ -19,8 +19,10 @@
     },
     "START_PIC": {
       "description": "A Telegraph link of the pic to display when give /start command"
-   },
-   "buildpacks": [
+    }
+  },
+ 
+  "buildpacks": [
     {
       "url": "heroku/python"
     }
