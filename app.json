@@ -9,10 +9,10 @@
       "description": "Your Bot token from @Botfather"
     },
     "API_ID": {
-      "description": "Your API_ID from https://my.telegram.org/apps "
+      "description": "API_ID from Telegram Web"
     },
     "API_HASH": {
-      "description": "Your API_HASH from https://my.telegram.org/apps"
+      "description": "API_HASH from Telegram Web"
     },
     "OWNER_USERNAME": {
       "description": "Your Telegram Username"
