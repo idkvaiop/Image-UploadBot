@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.WARNING)
 tgraph = Client(
     "Image Upload Bot",
     start_pic=Credentials.START_PIC,
-    owner_username=Credentials._OWNER_USERNAME,
+    owner_username=Credentials.OWNER_USERNAME,
     bot_token=Credentials.BOT_TOKEN,
     api_id=Credentials.API_ID,
     api_hash=Credentials.API_HASH
